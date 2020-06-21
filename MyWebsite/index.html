@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Samer Madieh Portfolio</title>
+  </head>
+  <body>
+
+
+
+    <div class="container navbar">
+      <header>
+        <div class="lgo">
+          <h1>Samer Madieh</h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+
+
+    <div class="container main-info-section">
+      <div class="text">
+        <h1>
+          <span>H</span>
+          <span class="m-left">i</span>
+          <span class="m-left">,</span>
+          <br>
+          <span>I</span>
+          <span class="m-left">'</span>
+          <span class="m-left">m</span>
+          <span class="name">S</span>
+          <span class="m-left name">a</span>
+          <span class="m-left name">m</span>
+          <span class="m-left name">e</span>
+          <span class="m-left name">r</span>
+          <span class="m-left">,</span>
+          <br>
+          <span>S</span>
+          <span class="m-left">o</span>
+          <span class="m-left">f</span>
+          <span class="m-left">t</span>
+          <span class="m-left">w</span>
+          <span class="m-left">a</span>
+          <span class="m-left">r</span>
+          <span class="m-left">e</span>
+          <span>E</span>
+          <span class="m-left">n</span>
+          <span class="m-left">g</span>
+          <span class="m-left">i</span>
+          <span class="m-left">n</span>
+          <span class="m-left">e</span>
+          <span class="m-left">e</span>
+          <span class="m-left">r</span>
+          <span class="m-left">.</span>
+        </h1>
+        <p>Java | Python | Front End | Swift</p>
+        <a href="#contact">Contact Me</a>
+      </div>
+      <div class="profile-img">
+        <img src="img/headshot.png" alt="Profile Image">
+      </div>
+    </div>
+
+
+
+    <div class="container about" id="about">
+      <h1>About Me</h1>
+      <div class="about-me-info">
+        <p>Seeking a software engineering internship. Pursuing a Bachelor's degree in Computer Science at SDSU.
+           Passionate about programming in multiple languages and creating software.</p>
+        <p>Interested in app development on both iOS and Android platforms. I have experience designing apps
+        on xcode using the swift language.</p>
+        <p>Very interested in Machine Learning and Artificial Inteligence. I developed a chatbot that answers
+        patients questions about chronic kidney disease.</p>
+      </div>
+      <img src="img/dotted-shape.png" alt="">
+    </div>
+
+
+
+    <div class="container skills" id="skills">
+      <h1>Skills</h1>
+      <p class="skills-info">Experienced in Java, Python, Front-End, and Swift programming languages.</p>
+      <div class="java">
+        <div class="tag-java">
+          <p>JAVA</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-java">
+          </div>
+        </div>
+      </div>
+      <div class="java">
+        <div class="tag-python">
+          <p>Python</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-python">
+          </div>
+        </div>
+      </div>
+      <div class="java">
+        <div class="tag-frontend">
+          <p>Front-End</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-frontend">
+          </div>
+        </div>
+      </div>
+      <div class="java">
+        <div class="tag-swift">
+          <p>SWIFT</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-swift">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container projects" id="projects">
+      <h1>Projects</h1>
+      <div class="project-category">
+        <button id="ml" class="active" onclick="showRequiredCategory(this)">Machine Learning</button>
+        <button id="ios" onclick="showRequiredCategory(this)">iOS</button>
+        <button id="java" onclick="showRequiredCategory(this)">Java</button>
+      </div>
+      <div class="category-ml showCategory">
+        <a href=""><img src="img/1.png"></a>
+        <a href=""><img src="img/2.png"></a>
+        <a href=""><img src="img/3.png"></a>
+        <a href=""><img src="img/2.png"></a>
+        <a href=""><img src="img/3.png"></a>
+      </div>
+      <div class="category-ios hideCategory">
+        <a href=""><img src="img/1.png"></a>
+        <a href=""><img src="img/2.png"></a>
+        <a href=""><img src="img/3.png"></a>
+      </div>
+      <div class="category-java hideCategory">
+        <a href=""><img src="img/1.png"></a>
+        <a href=""><img src="img/2.png"></a>
+        <a href=""><img src="img/3.png"></a>
+        <a href=""><img src="img/2.png"></a>
+      </div>
+    </div>
+
+
+
+    <div class="container contact" id="contact">
+      <h1>Contact</h1>
+      <form>
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="email" placeholder="smadieh@gmail.com" disabled>
+        <textarea name="message" rows="10" cols="30" placeholder="Message"></textarea>
+        <input type="submit">
+      </form>
+    </div>
+
+
+
+    <footer>
+      <hr>
+      <p>2020 Copyright. All Rights Reserved.</p>
+    </footer>
+
+
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
