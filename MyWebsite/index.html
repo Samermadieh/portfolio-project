@@ -92,10 +92,10 @@
 
     <div class="container skills" id="skills">
       <h1>Skills</h1>
-      <p class="skills-info">Experienced in Java, Python, Front-End, and Swift programming languages.</p>
+      <p class="skills-info">Experienced in Java, Python, Front-End, and Swift programming.</p>
       <div class="java">
         <div class="tag-java">
-          <p>JAVA</p>
+          <p>Java</p>
         </div>
         <div class="progressbar">
           <div class="bar-java">
@@ -136,27 +136,20 @@
     <div class="container projects" id="projects">
       <h1>Projects</h1>
       <div class="project-category">
-        <button id="ml" class="active" onclick="showRequiredCategory(this)">Machine Learning</button>
+        <button id="javascript" class="active" onclick="showRequiredCategory(this)">Javascript</button>
         <button id="ios" onclick="showRequiredCategory(this)">iOS</button>
-        <button id="java" onclick="showRequiredCategory(this)">Java</button>
+        <button id="ml" onclick="showRequiredCategory(this)">Machine Learning</button>
       </div>
-      <div class="category-ml showCategory">
+      <div class="category-javascript showCategory">
+        <a href=""><img src="img/5.png"></a>
+        <a href=""><img src="img/4.png"></a>
+        <a href=""><img src="img/2.png"></a>
+      </div>
+      <div class="category-ml hideCategory">
         <a href=""><img src="img/1.png"></a>
-        <a href=""><img src="img/2.png"></a>
-        <a href=""><img src="img/3.png"></a>
-        <a href=""><img src="img/2.png"></a>
-        <a href=""><img src="img/3.png"></a>
       </div>
       <div class="category-ios hideCategory">
-        <a href=""><img src="img/1.png"></a>
-        <a href=""><img src="img/2.png"></a>
         <a href=""><img src="img/3.png"></a>
-      </div>
-      <div class="category-java hideCategory">
-        <a href=""><img src="img/1.png"></a>
-        <a href=""><img src="img/2.png"></a>
-        <a href=""><img src="img/3.png"></a>
-        <a href=""><img src="img/2.png"></a>
       </div>
     </div>
 
@@ -169,7 +162,7 @@
         <input type="email" placeholder="Email">
         <input type="email" placeholder="smadieh@gmail.com" disabled>
         <textarea name="message" rows="10" cols="30" placeholder="Message"></textarea>
-        <input type="submit">
+        <input class='submit' type="submit">
       </form>
     </div>
 
